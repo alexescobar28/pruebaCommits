@@ -29,7 +29,10 @@ namespace pruebaCommits
             curso = textBox2.Text;
             apellido = textBox3.Text;
             sexo = comboBox1.Text;
-            label6.Text = nombre + curso + apellido + sexo;
+            label6.Text = "Nombre: "+nombre+"\n"+
+                          "Curso: "+ curso+"\n"+
+                           "Apellido: " + apellido+"\n"
+                           +"Sexo: "+ sexo;
         }
     }
 }
